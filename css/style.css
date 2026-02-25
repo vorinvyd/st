@@ -173,7 +173,6 @@ body {
 
 .hero {
 	height: 100%;
-    width: 100%;
     background: #000000;
     background-size: cover;
     text-align: center;
@@ -315,7 +314,7 @@ hr {
     padding: 1em;
     background-color: rgba(255, 255, 255, 0.15);
     text-align: center;
-	width: 18em;
+	width: 20em;
 	border-radius: 1em;
 }
 .staff-card2 img {
@@ -323,10 +322,9 @@ hr {
 }
 @media (max-width: 1200px) {
   .staff-card2 {
-      width: 13em;
+      width: 17em;
   }
 }
-
 .staff-card2-don {
 	display: inline-block;
 	margin: 1em;
@@ -345,6 +343,11 @@ hr {
       width: 13em;
   }
 }
+
+.non img {
+	border-radius: 0em;
+}
+
 
 .staff-card2-d {
 	display: inline-block;
