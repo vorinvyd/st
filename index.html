@@ -1,0 +1,93 @@
+<!--
+MomentariyModder Website 8.0.0 by MomentariyModder
+The source code is available on GitHub!
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="img/icon.png">
+  <title>стоптайм</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="title" content="стоптайм">
+  <meta name="description" content="мы - музыкальная группа из Питера">
+  <meta name="keywords" content="стоптайм">
+  <meta name="theme-color" content="#4bb4f1">
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="config.js"></script>
+  <script src="js/lightbox.min.js"></script>  
+  <script src="https://donorbox.org/widget.js" paypalExpress="false"></script>
+  <script type="text/javascript" src="js/lang/home.js"></script>
+ 
+  <script>tosAgreed = true</script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="config.css">
+  <link href="css/lightbox.css" rel="stylesheet" media="all">
+
+</head>
+
+<body>
+
+  <div id="target"></div>
+
+  <script id="template" type="text/x-handlebars-template">
+
+  <header>
+    <div class="hero" id="hero">
+      <a href="#!"><h1 style="padding-top: 3%;"><img class="locked" src="img/logo.png" width="30%"></h1></a>
+	<br>
+	<div id="projects-l1" class="grid">
+	<div class="staff-card2">
+	  <h2>привет, интернет!</h2><br><br>
+	  <a>у вас возникнет вопрос - что это такое и кто мы вообще такие?</a><br>
+	  <a>мы - музыкальная группа из Питера</a><br>
+	  <h3>СТОПТАЙМ</h3><br><br>
+	  <a>давайте познакомимся:</a><br>
+	  <a>Диана/наоко/Наоке — что-то делает с микрофоном и бьет по какому-то пианино✨</a><br>
+	  <a>Саша — делает рукой вверх-вниз по струнам и иногда втирает Вам какую-то дичь🐸</a><br><br>
+	  <a href="img/stoptime.jpg" data-lightbox="roadtrip">
+      <img class="" src="img/stoptime.jpg" width="100%"></a>
+    </div>
+	<div class="staff-card2">
+	  <h2>наши выступление</h2><br><br>
+	  <a href="https://fienta.com/no/stoptime-naoko" class="btn2"><i class="fa-regular fa-calendar"></i> 28.02.2026 18:00*<br>Осло - Samfunnet Bislet</a><br><br>
+	  <a href="https://billet.to/1867477-art" class="btn2"><i class="fa-regular fa-calendar"></i> 03.03.2026 19:00*<br>Стокгольм</a><br><br><br>
+	  <a>*по местному времени</a>
+    </div>
+	<div class="staff-card2">
+	  <h2>наши основные соц-сети</h2><br><br>
+	  <a href="https://t.me/Stoptime_Band" class="btn2"><i class="fa-brands fa-telegram"></i> Telegram-канал (группы)</a><br><br>
+	  <a href="https://t.me/naokooomusicstoptime" class="btn2"><i class="fa-brands fa-telegram"></i> Telegram-канал (наоки)</a><br><br>
+	  <a href="https://www.twitch.tv/stoptimeband" class="btn2"><i class="fa-brands fa-twitch"></i> Twitch</a><br><br>
+	  <a href="https://www.tiktok.com/@naokooomusic" class="btn2"><i class="fa-brands fa-tiktok"></i> TikTok (наоки)</a><br><br>
+	  <a href="https://www.instagram.com/naokooomusic" class="btn2"><i class="fa-brands fa-instagram"></i> Instagram (наоки)</a><br><br>
+    </div>
+	</div>
+	<div id="projects-l1" class="grid">
+	<div class="staff-card2">
+	  <h2>поддержка</h2><br><br>
+	  <a class="btn2">Альфа/Сбер (Для РФ)<br>+79120264920</a><br><br>
+	  <a class="btn2">Иностранная карта (МЕЖД.)<br>5341837610108302</a><br><br>
+	  <a href="https://boosty.to/stoptime_band" class="btn2">Бусти<br>*клик*</a><br><br>
+	  <a class="btn2">TON-кошелек<h6>UQD9XogN7Y489OzWHO7BopH5_kSzJ_uI-CkfCexo-kLS9QHX</h6></a><br><br>
+	  <a href="https://t.me/boost/Stoptime_Band" class="btn2">голосами наш тгк<br>*клик*</a><br><br>
+    </div>
+	<div class="staff-card2">
+	  <h2>интервью</h2><br><br>
+	  <a href="https://www.youtube.com/watch?v=Edn7f5uGueM"><img class="" src="img/interview/vdud.jpg" width="100%"></a><br><br>
+	  <a href="https://www.youtube.com/watch?v=9a-mhLNDBrQ&t=3748s"><img class="" src="img/interview/tvrain.png" width="100%"></a><br><br>
+    </div>
+	</div><br><br>
+	<a>Copyright &copy; {{server_port}} {{server_name}}. Все права защищены.</a><br><br>
+	</div>
+  </header>
+  </script>
+</body>
+</html>
